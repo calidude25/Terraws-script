@@ -1,7 +1,7 @@
 provider "aws" {
   profile = "default"
-  region  = "eu-west-1"
-  version = "2.70"
+  region  = "us-west-2"
+  #version = "2.70"
 }
 
 #* In case you need to configure the connection instead of using AWS CLI configs

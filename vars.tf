@@ -8,11 +8,11 @@ variable "cidr_subnet" {
 }
 variable "availability_zone" {
   description = "availability zone to create subnet"
-  default     = "eu-west-1a"
+  default     = "us-west-2a"
 }
 variable "public_key_path" {
   description = "Public key path"
-  default     = "./id_rsa.pub"
+  default     = "/Users/tkessler/.ssh/id_rsa.pub"
 }
 variable "public_key_name" {
   description = "Public key name"
